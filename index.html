@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Posher | Teste</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="content">
+        <section>
+          <div class="itens">
+            <h1>
+              Dado dois arrays de inteiros não vazios, determine se os valores
+              do segundo array estão na mesma ordem no primeiro array.
+            </h1>
+          </div>
+
+          <div class="form_submit">
+            <input
+              id="firstArrayA"
+              type="text"
+              value="1 -6 30 -21 4"
+              placeholder="Insira os valores inteiros"
+            />
+
+            <input
+              id="secondArrayA"
+              type="text"
+              placeholder="Insira os valores interios"
+            />
+            <button onclick="isSubsequent()">
+              Verificar ordem
+            </button>
+          </div>
+        </section>
+
+        <section>
+          <div class="itens">
+            <h1>
+              Dado um array de strings não vazio, remove os dados duplicados em
+              sequência.
+            </h1>
+          </div>
+          <div class="form_submit">
+            <input
+              id="duplicateArray"
+              type="text"
+              value="noite noite nota hoje nota"
+              placeholder="Insira o valor"
+            />
+            <button onclick="removeDuplicates()">Remover duplicadas</button>
+          </div>
+        </section>
+
+        <section>
+          <div class="itens">
+            <h1>
+              Dado um array de strings não vazio, retorna um array de booleans
+              indicando se a string é ou não um palíndromo.
+            </h1>
+          </div>
+          <div class="form_submit">
+            <input id="palindromoArray" type="text" value="omissíssimo sorte reler"/>
+            <button onclick="verifyPalindromes()">Verificar palíndromo</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
