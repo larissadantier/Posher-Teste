@@ -11,7 +11,9 @@
   
   <br/>
   
-  Uma sequência de testes oferecido pela empresa Posher: verificar sequência/ordem dos arrays, remover duplicidades e verificar palíndromos
+  Uma sequência de testes oferecido pela empresa Posher: verificar sequência/ordem dos arrays, remover duplicidades e verificar palíndromos.
+
+  Acesse aqui: <a href="https://posher-teste.vercel.app/" target="_blank">Link</a>
 
 ### Instalação
 ```bash
