@@ -25,8 +25,16 @@ function removeDuplicates() {
     .getElementById("duplicateArray")
     .value.split(" ")
     .map(String);
-  const removeDuplicate = [...new Set(inputDuplicates)];
-  return alert(`Resultado: [${removeDuplicate}]`);
+
+  const arrayCleanDuplicates = [];
+
+  for (let i = 0; i < inputDuplicates.length; i++) {
+    if (inputDuplicates[i + 1] !== inputDuplicates[i]) {
+      arrayCleanDuplicates.push(inputDuplicates[i]);
+    }
+  }
+
+  return alert(`Resultado: [${arrayCleanDuplicates}]`);
 }
 
 //Dado um array de strings não vazio, retorna um array de booleans indicando se a string é ou não um palíndromo.
